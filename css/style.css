@@ -1,0 +1,30 @@
+.hero {
+  background: linear-gradient(135deg, #0d6efd, #6f42c1);
+}
+
+/* Tarjetas de producto */
+.card-producto {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-producto:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-producto img {
+  height: 200px;
+  object-fit: cover; /* recorta la foto sin deformarla */
+}
+
+.card-producto .badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.precio {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #198754;
+}
